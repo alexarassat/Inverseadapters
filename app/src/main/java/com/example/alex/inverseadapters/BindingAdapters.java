@@ -19,7 +19,7 @@ public class BindingAdapters {
         return view.getText().toString() + 78;
     }
 
-    @BindingAdapter(value = "textAttrChanged")
+    @BindingAdapter(value = "textAttrChanged")ccvx
     public static void setHeight(EditText view, final InverseBindingListener listener) {
         Log.d("edokekei", " 95 " + "kik");
 
